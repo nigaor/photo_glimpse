@@ -41,7 +41,7 @@ export default function PostForm({ position, onSubmit }: PostFormProps) {
   return (
     <div className="bg-gray-50 dark:bg-gray-900 p-4 border-t border-gray-200 dark:border-gray-800">
         <div className="max-w-2xl mx-auto">
-            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 items-start sm:items-end">
+            <form onSubmit={handleSubmit} className="flex sm:flex-row gap-4 items-start sm:items-end">
                 <div className="w-full sm:w-1/3">
                     <label htmlFor="comment" className="block text-sm font-medium text-gray-700 dark:text-gray-300">コメント</label>
                     <textarea
